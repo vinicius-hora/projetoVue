@@ -1,0 +1,11 @@
+{
+    "estoque": [{
+        "id": 1,
+        "item": "Andrew",
+        "valor": 50.00
+    }, {
+        "id": 2,
+        "item": "Julio",
+        "valor": 100.00
+    }]
+}
