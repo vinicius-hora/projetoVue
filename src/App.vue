@@ -1,19 +1,18 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/" >Home | </router-link>
-      <router-link to="/Vendas" >Vendas | </router-link>
-      <router-link to="/Estoques" >Estoques</router-link>
+      <router-link to="/" >Home  </router-link>/
+      <router-link to="/vendas" >Vendas  </router-link>/
+      <router-link to="/estoques" >Estoques</router-link>
+     
+    </div>
+    <div data-app>
       <router-view />
     </div>
    
   </div>
 </template>
 
-<script>
-
-
-</script>
 <style lang="scss">
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;

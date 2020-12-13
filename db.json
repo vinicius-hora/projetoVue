@@ -1,11 +1,24 @@
 {
-    "estoque": [{
-        "id": 1,
-        "item": "Andrew",
-        "valor": 50.00
-    }, {
-        "id": 2,
-        "item": "Julio",
-        "valor": 100.00
-    }]
+  "estoques": [
+    {
+      "id": 1,
+      "item": "temperos",
+      "valor": 50
+    },
+    {
+      "id": 2,
+      "item": "ingredientes",
+      "valor": 100
+    },
+    {
+      "id": "5",
+      "item": "massas",
+      "valor": "200"
+    },
+    {
+      "id": "7",
+      "item": "testePUT",
+      "valor": "10000"
+    }
+  ]
 }

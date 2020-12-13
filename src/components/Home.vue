@@ -5,12 +5,12 @@
 
     <script>
     export default{
-        name: "Estoque",
+        name: "Estoques",
         data: () => ({
            
         }),
         methods:{
 
         }
-    }
+    };
 </script>
