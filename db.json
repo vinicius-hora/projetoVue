@@ -3,22 +3,52 @@
     {
       "id": 1,
       "item": "temperos",
-      "valor": 50
+      "valor": 50,
+      "nota": "18542"
     },
     {
       "id": 2,
       "item": "ingredientes",
-      "valor": 100
+      "valor": 100,
+      "nota": "s/n"
     },
     {
-      "id": "5",
+      "id": 5,
       "item": "massas",
-      "valor": "200"
+      "valor": "200",
+      "nota": "s/n"
+    },
+    {
+      "id": "6",
+      "item": "teste",
+      "nota": "n/a",
+      "valor": "10"
     },
     {
       "id": "7",
-      "item": "testePUT",
-      "valor": "10000"
+      "item": "teste-imput",
+      "valor": "100",
+      "nota": "n/a"
+    }
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "item": "pizza",
+      "cliente": "vinicius",
+      "valor": 50
+    },
+    {
+      "id": 2,
+      "item": "lanche",
+      "cliente": "vinicius",
+      "valor": 100
+    },
+    {
+      "id": 8,
+      "item": "quentinha",
+      "cliente": "teste-post",
+      "valor": "15.00"
     }
   ]
 }

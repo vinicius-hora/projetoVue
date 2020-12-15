@@ -40,6 +40,7 @@
                       <v-row>
                         <v-col cols="12" sm="6" md="4">
                           <v-text-field
+                            type="number"
                             v-model="editedItem.id"
                             label="Id"
                           ></v-text-field>
@@ -48,6 +49,12 @@
                           <v-text-field
                             v-model="editedItem.item"
                             label="Item"
+                          ></v-text-field>
+                        </v-col>
+                         <v-col cols="12" sm="6" md="8">
+                          <v-text-field
+                            v-model="editedItem.nota"
+                            label="Nota Fiscal/comprovante"
                           ></v-text-field>
                         </v-col>
                         <v-col cols="12" sm="6" md="4">
@@ -98,17 +105,18 @@ export default {
     headers: [
       { text: "Id", value: "id" },
       { text: "Item", value: "item" },
+      { text: "Nota Fiscal ou comprovante(opcional)", value: "nota" },
       { text: "Valor", value: "valor" },
       { text: "Ações", value: "actions", sortable: false },
     ],
     estoques: [
-      { id: 3, item: "temperos", valor: 50.0 },
-      { id: 4, item: "fermento", valor: 20.0 },
+     
     ],
     editedIndex: -1,
     editedItem: {
       id: null,
       item: "vazio",
+      nota: "n/a",
       valor: 0,
     },
   }),
